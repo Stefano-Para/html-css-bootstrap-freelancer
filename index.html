@@ -49,6 +49,14 @@
                         
                             <h1>Start Boostrap</h1>
 
+                            <!-- soluzione che non mi piace  -->
+                            <div class="stellina">
+                                <span class="decor">
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </div> 
+                            
+
                 <!-- in mezzo c'è una stellina e linea !!  -->
 
                             <h3>Graphic Artist - Web Designer - Illustrator</h3>
@@ -64,7 +72,15 @@
             <!-- PORTFOLIO  -->
             <section id="portfolio">
                 <div class="container text-center">
+
                     <h2>Portfolio</h2>
+
+                    <!-- star decoration  -->
+                    <div class="stellina">
+                        <span class="decor">
+                            <i class="fas fa-star"></i>
+                        </span>
+                    </div> 
                     <!-- prima riga img  -->
                     <div class="row">
                         <div class="col-md-4 col-sm-6 col-xs-12">
@@ -93,8 +109,15 @@
             <section id="about" class="bg-turquoise">
 
                 <div class="wrapper_60">
-                    <div class="container-fluid">
                         <h2 class="text-center">ABOUT</h2>
+                        <!-- star decoration  -->
+                        <div class="stellina">
+                            <span class="decor">
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>  
+
+
                         <div class="row">
                             <div class="col-md-6 col-sm-6 col-xs-12">
                                 <p>
@@ -112,7 +135,6 @@
                         <div class="text-center">                    
                             <button type="button" class="btn btn-default"><i class="fas fa-download"></i> Download</button>
                         </div>
-                    </div>
                 </div>
             </section>
 
@@ -120,25 +142,45 @@
             <section id="contact">
                 <h2 class="text-center">Contact Me</h2>
                 <div class="wrapper_60">
-                    <div class="container">
+                    <!-- star decoration  -->
+                    <div class="stellina">
+                        <span class="decor">
+                            <i class="fas fa-star"></i>
+                        </span>
+                    </div> 
                         
                         <div class="row">
                             <div class="col-md-12 col-sm-12 col-xs-12">
-                                
-                                <ul>
-                                    <li>Name</li>
-                                    <li>Email</li>
-                                    <li>Phone</li>
-                                    <li>Message</li>
-                                </ul>  
-                                <textarea name="textarea" rows="4" cols="50">
-                                        
-                                </textarea>                 
+
+                                <!-- FORMAT contatti  -->
+                                <form>
+                                    <!-- nome  -->
+                                    <div class="form-group">
+                                        <label for="exampleInputNome">Nome</label>
+                                        <input type="Nome" class="form-control" id="exampleInputNome" placeholder="Nome">
+                                    </div>
+                                    <!-- email  -->
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                                    </div>
+                                    <!-- numero -->
+                                    <div class="form-group">
+                                        <label for="exampleInputNumber">Phone Number</label>
+                                        <input type="PhoneNumber" class="form-control" id="exampleInputNumber" placeholder="Phone Number">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputNumber">Message</label>
+                                        <textarea class="form-control" rows="4" placeholder="Insert Here Your Message"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-default">Send</button>
+                                    </div>
+                                </form> 
+
                             </div>
                         </div>
-                        <input type="Submit" value="Send">
                     </div>
-                </div>
             </section>
         </main>
 
